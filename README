@@ -1,0 +1,17 @@
+Programmer: Mike Staub
+Date: May 10, 2011
+
+I have completed the pascal compiler to about 90%. I have TACs generated for all of the appendix A grammar, as well as multidimensional arrays and infinitely nested functions.
+I have assembly code generating for everything but arrays and function calls. I have a good understanding how to go about doing it, but I have run out of time.
+Unfortunately, I have projects for other classes as well as finals to study for. I feel if I had one more week, I could get this compiler to really shine.
+I plan on working on it over the summer in my free time, to get arrays and functions working, as well as support for real values. I have spent so much time on it already,
+it would kill me to let it sit unfinished. But here is what I have so far at least.
+
+I learned a tremendous amount in this course. Not just about compilers, but also reaffirming my knowledge of computer architecture and assembly programming.
+I'm sure this practice has done nothing but make foundation rock solid. I look forward to taking my final cs courses next year as a senior. I am ready.
+
+I have included a file called FINALTEST.p to demonstrate what code I can generate thus far.
+
+To run the compiler:     ./compiler FINALTEST.p > output.s             <-- need the redirection meta character, as the compiler just calls printf()
+                         gcc output.s
+                         ./a.out
